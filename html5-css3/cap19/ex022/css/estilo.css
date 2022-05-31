@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.fundo {
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    background-image: url("../img/wallpaper001.jpg");
+}
+
+h1 {
+    text-align: center;
+}
+
+#f1 {
+    background-image: url("../img/pattern001.png");
+}
+
+#f2 {
+    background-image: linear-gradient(to right, rgb(1, 255, 1), rgb(0, 238, 255));
+}
+
+#f3 {
+    background-color: antiquewhite;
+}
