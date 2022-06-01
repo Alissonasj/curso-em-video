@@ -115,9 +115,22 @@ main strong {
     text-decoration: underline;
 }
 
-.youtube {
+.video {
+    position: relative;    
+    overflow: hidden;
+    padding-top: 56.25%;
     background-color: var(--cor2);
     margin: 10px -20px 20px -20px;
+}
+
+.youtube{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .bugd {
