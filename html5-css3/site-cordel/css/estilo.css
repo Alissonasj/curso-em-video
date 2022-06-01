@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    
+}
+
+header a {
+    color: white;
+}
+
+.sessao {
+    font-size: 1.2em;
+    max-width: 500px;
+    border: 2px solid;
+    margin: 50px 0px 50px 0px;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.rodape p {
+    padding: 10px;
+    font-size: 1.5em;
+}
