@@ -5,28 +5,67 @@
     padding: 0px;
 }
 
+html,
 body {
+    min-height: 100vh;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .cabecalho {
     background-color: black;
-    color: white;
+    color: white;  
+    text-align: center;  
 }
 
 header h1 {
+    padding-top: 20px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-size: 1.7em;
+}
+
+.sec1 p {
+    margin-bottom: 2em;
+}
+
+.sec2 {
+    background-color: burlywood;
+    color: white;    
+    background-position: right center;
+    background-size: cover;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.411);
+    background-attachment: fixed;
     
 }
 
-header a {
-    color: white;
+.sec2 p {
+    background-color: rgba(0, 0, 0, 0.445);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;    
 }
 
-.sessao {
-    font-size: 1.2em;
-    max-width: 500px;
-    border: 2px solid;
-    margin: 50px 0px 50px 0px;
+#img1{
+    background-image: url("../imagens/background001.jpg");
+}
+
+#img2{
+    background-image: url("../imagens/background002.jpg");    
 }
 
 .rodape {
@@ -37,5 +76,5 @@ header a {
 
 .rodape p {
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
