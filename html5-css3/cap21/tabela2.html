@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,
+        tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead tr th {
+            background-color: gray;
+            position: sticky;
+            top: -1px;
+        }
+
+        /*
+        odd = par
+        even = ímpar
+        */
+        tbody tr:nth-child(odd) {
+            background-color: rgba(128, 128, 128, 0.507);
+            color: white;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.603);
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Tabela de Cidade e Estados</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 200px;">Estado</th>
+                <th scope="col" style="width: 100px;">Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Catu</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Alagoinhas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Pojuca</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>Camaçãri</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Cidades</th>
+                <td class="num">2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quis itaque accusantium nulla perspiciatis
+        molestias vitae maiores iusto natus ipsam repellendus maxime neque quia tenetur, quibusdam est culpa omnis
+        recusandae?</p>
+</body>
+
+</html>
