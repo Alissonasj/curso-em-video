@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .cor {
+            position: absolute;
+            filter: blur(150px);
+            
+        }
+
+        section .cor:nth-child(1) {
+            width: 400px;
+            height: 400px;
+            margin-right: 50px;
+            background-color: aqua;
+        }
+
+        section .cor:nth-child(2) {
+            bottom: -100px;
+            width: 600px;
+            height: 400px;
+            margin-right: 50px;
+            background-color: rgb(240, 222, 121);
+        }
+
+        section .cor:nth-child(3) {
+            bottom: 300px;
+            right: -150px;
+            width: 700px;
+            height: 400px;
+            margin-right: 50px;
+            background-color: rgb(253, 5, 121);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="cor"></div>
+        <div class="cor"></div>
+        <div class="cor"></div>       
+    </section>
+</body>
+</html>
